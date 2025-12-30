@@ -543,7 +543,7 @@ menu
             }
 
             &.mil-active {
-                & > a {
+                &>a {
                     color: $accent;
 
                     &:hover {
@@ -554,7 +554,7 @@ menu
             }
 
             &.mil-has-children {
-                & > a {
+                &>a {
                     &:hover {
                         color: $light;
                         padding-left: 25px;
@@ -1425,6 +1425,7 @@ team
     position: relative;
     overflow: hidden;
     padding-bottom: 130%;
+    border-radius: 50px;
 
     &:after {
         content: '';
@@ -1751,6 +1752,7 @@ blog
         overflow: hidden;
         padding-bottom: 65%;
         margin-bottom: 30px;
+        border-radius: 50px;
 
         & img {
             width: 100%;
@@ -2472,7 +2474,7 @@ images
     position: relative;
     overflow: hidden;
 
-    & > img {
+    &>img {
         position: absolute;
         top: 0;
         left: 0;
