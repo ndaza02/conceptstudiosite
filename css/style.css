@@ -1465,6 +1465,8 @@ menu button
   align-items: center;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  mix-blend-mode: difference;
+  z-index: 10;
 }
 
 @media screen and (max-width: 992px) {
