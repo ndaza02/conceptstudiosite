@@ -73,6 +73,7 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 16px;
   font-weight: 300;
+  background-color: #ffffff;
   color: rgba(26, 26, 26, 0.5);
   line-height: 150%;
   -ms-scroll-chaining: none;
@@ -99,6 +100,7 @@ body {
 
 .mil-wrapper {
   position: relative;
+  background-color: #ffffff;
   overflow: hidden;
   max-width: 100%;
 }

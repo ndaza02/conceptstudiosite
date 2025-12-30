@@ -18,6 +18,7 @@ body {
     font-family: $font-1;
     font-size: $text;
     font-weight: 300;
+    background-color: $light;
     color: $dt-50;
     line-height: 150%;
     overscroll-behavior: none;
@@ -34,6 +35,7 @@ body {
 
 .mil-wrapper {
     position: relative;
+    background-color: $light;
     overflow: hidden;
     max-width: 100%;
 }
@@ -326,6 +328,7 @@ a {
         width: 600px;
         height: 1px;
         background-color: $light;
+        max-width: 100%;
         opacity: .2;
     }
 
@@ -692,7 +695,7 @@ backgrounds
 ------------------------------------------- */
 .mil-dark-bg {
     position: relative;
-    
+
     &:before {
         content: '';
         width: 100%;
