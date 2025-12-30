@@ -5,7 +5,7 @@ preloader
 ------------------------------------------- */
 .mil-preloader {
     position: fixed;
-    z-index: 9;
+    z-index: 1000;
     top: 0;
     left: 0;
     width: 100%;
@@ -184,7 +184,7 @@ frame
 .mil-frame {
     padding: 50px 60px 60px 60px;
     position: fixed;
-    z-index: 2;
+    z-index: 999;
     pointer-events: none;
     display: flex;
     flex-direction: column;
