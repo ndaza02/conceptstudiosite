@@ -1467,8 +1467,13 @@ menu button
   align-items: center;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
-  mix-blend-mode: difference;
-  z-index: 10;
+  z-index: 2;
+}
+
+.mil-menu-btn.mil-invert span,
+.mil-menu-btn.mil-invert span:after,
+.mil-menu-btn.mil-invert span:before {
+  background: #1a1a1a;
 }
 
 @media screen and (max-width: 992px) {
