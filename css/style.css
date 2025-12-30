@@ -1470,19 +1470,6 @@ menu button
   z-index: 2;
 }
 
-.mil-menu-btn.mil-invert span,
-.mil-menu-btn.mil-invert span:after,
-.mil-menu-btn.mil-invert span:before {
-  background: #1a1a1a;
-}
-
-@media screen and (max-width: 992px) {
-  .mil-menu-btn {
-    -webkit-transform: scale(0.85);
-    transform: scale(0.85);
-  }
-}
-
 .mil-menu-btn span,
 .mil-menu-btn span:after,
 .mil-menu-btn span:before {
@@ -1490,7 +1477,7 @@ menu button
   display: block;
   width: 28px;
   height: 2.5px;
-  background: #ffffff;
+  background: #ff5500;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transition: inherit;

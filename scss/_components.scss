@@ -281,15 +281,6 @@ menu button
     transition: $t-md;
     z-index: 2;
 
-    &.mil-invert {
-
-        & span,
-        & span:after,
-        & span:before {
-            background: $dark;
-        }
-    }
-
     @media screen and (max-width: 992px) {
         transform: scale(0.85);
     }
@@ -302,7 +293,7 @@ menu button
         display: block;
         width: 28px;
         height: 2.5px;
-        background: $light;
+        background: $accent;
         backface-visibility: hidden;
         transition: inherit;
     }

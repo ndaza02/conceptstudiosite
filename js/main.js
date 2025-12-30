@@ -423,32 +423,6 @@ $(function () {
             }
         });
     });
-    /***************************
-
-    menu color
-
-    ***************************/
-    const menuBtn = document.querySelector(".mil-menu-btn");
-    const sections = document.querySelectorAll("section");
-
-    sections.forEach((section) => {
-        let isDark = section.classList.contains("mil-dark-bg");
-
-        ScrollTrigger.create({
-            trigger: section,
-            start: "top 40px",
-            end: "bottom 40px",
-            onEnter: () => {
-                if (!isDark) menuBtn.classList.add("mil-invert");
-                else menuBtn.classList.remove("mil-invert");
-            },
-            onEnterBack: () => {
-                if (!isDark) menuBtn.classList.add("mil-invert");
-                else menuBtn.classList.remove("mil-invert");
-            },
-        });
-    });
-
     const scaleImage = document.querySelectorAll(".mil-scale");
 
     scaleImage.forEach((section) => {
